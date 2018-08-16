@@ -8,14 +8,16 @@ import (
 )
 
 func main() {
+	offset := 20
 	var x, y int
-
+	x, y = robotgo.GetMousePos()
 	for {
-		x, y = robotgo.GetMousePos()
-		fmt.Println("mouse coordinates: x=", x, ", y=", y)
-		robotgo.MoveMouse(x+1, y+1)
-		time.Sleep(30 * time.Second)
-		robotgo.MoveMouse(x-1, y-1)
-		time.Sleep(30 * time.Second)
+
+		fmt.Println("mouse coordinates: x=", x+offset, ", y=", y+offset)
+		robotgo.MoveMouse(x+offset, y+offset)
+		time.Sleep(10 * time.Second)
+		robotgo.MoveMouse(x-offset, y-offset)
+		fmt.Println("mouse coordinates: x=", x-offset, ", y=", y-offset)
+		time.Sleep(10 * time.Second)
 	}
 }
