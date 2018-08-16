@@ -3,7 +3,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1e96579bb1afe3e9ae4cdc883f8f94cc06917da38fdb95a47fd8db1f629888af"
+  digest = "1:4b553eb8ff9edcec67903b9afab4e4af3bd2279906769d7d9583c871bd522a52"
   name = "github.com/BurntSushi/xgb"
   packages = [
     ".",
@@ -11,12 +11,12 @@
     "xinerama",
     "xproto",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "27f122750802c950b2c869a5b63dafcf590ced95"
 
 [[projects]]
   branch = "master"
-  digest = "1:93698a5b0ee991e62e44f2278c0a5baa3545f9ff64366e67060876aa8753e15d"
+  digest = "1:60e36d6e4eb06d940bfbfdf7afddc3cdf26f483fb0b8ebfd0d3c5fd10a95d987"
   name = "github.com/BurntSushi/xgbutil"
   packages = [
     ".",
@@ -24,36 +24,36 @@
     "xevent",
     "xprop",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "f7c97cef3b4e6c88280a5a7091c3314e815ca243"
 
 [[projects]]
   digest = "1:e92f5581902c345eb4ceffdcd4a854fb8f73cf436d47d837d1ec98ef1fe0a214"
   name = "github.com/StackExchange/wmi"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "5d049714c4a64225c3c79a7cf7d02f7fb5b96338"
   version = "1.0.0"
 
 [[projects]]
-  digest = "1:64a5a67c69b70c2420e607a8545d674a23778ed9c3e80607bfd17b77c6c87f6a"
+  digest = "1:1d4f2ec0c1994e35e62fb7d2787ff8adcb38086089d8f663fe3444d6385de69a"
   name = "github.com/go-ole/go-ole"
   packages = [
     ".",
     "oleutil",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "a41e3c4b706f6ae8dfbff342b06e40fa4d2d0506"
   version = "v1.2.1"
 
 [[projects]]
-  digest = "1:5e2ce437644cb16cd7acfa21cf9a102138c05f22079511e68210673c60648e4b"
+  digest = "1:266c0ba1f102cf3b6827ec6283e5fabf24d11a69171a0e4894ebc5016d4f3329"
   name = "github.com/go-vgo/robotgo"
   packages = [
     ".",
     "clipboard",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "01bee868bbf0f351a88ae32a5c31d2cef6b82699"
   version = "0.50.0"
 
@@ -62,19 +62,19 @@
   digest = "1:fe2ae76c3067e286942934ebae3b9e6af25f7af88702c969981f4ca20ea16fe6"
   name = "github.com/lxn/win"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "7e1250ba2e7749fb9eb865da9ee93fb5a2fe73f1"
 
 [[projects]]
-  digest = "1:6411dc2c8891eb05c1d0599abf571e81f72cbc97ebd223b44d45712f4f1799c2"
+  digest = "1:449d8c3eded00fc99e520b9d56f080f0f246f5b8716bbdbb9e8f514770d72e6c"
   name = "github.com/otiai10/gosseract"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "b026a6fd291f00736db60738f4e83a79d26359cb"
   version = "v2.2.0"
 
 [[projects]]
-  digest = "1:7395b855a6078ad2e6c40311402a057a91125fb9f32cf228e1b32cdc57c33538"
+  digest = "1:267c6a4d9d69c5d14f4f233d364a59eaea299ea17b29dfe9be07ce5226c19899"
   name = "github.com/shirou/gopsutil"
   packages = [
     "cpu",
@@ -84,7 +84,7 @@
     "net",
     "process",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "8048a2e9c5773235122027dd585cf821b2af1249"
   version = "v2.18.07"
 
@@ -93,34 +93,34 @@
   digest = "1:99c6a6dab47067c9b898e8c8b13d130c6ab4ffbcc4b7cc6236c2cd0b1e344f5b"
   name = "github.com/shirou/w32"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "bb4de0191aa41b5507caa14b0650cdbddcd9280b"
 
 [[projects]]
   branch = "master"
-  digest = "1:c6bc1bac91c9dbb3fdd791af1f5a4d9c15d8027e40645e9292c1c9a90d287636"
+  digest = "1:8c70b0a4680616bf35cc1aba71bbf38afd9371df5f8f8804e4e01dce93dc3c62"
   name = "github.com/vcaesar/imgo"
   packages = ["."]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "fece97d8745e9e2299516bf074772fccf03a53a5"
 
 [[projects]]
   branch = "master"
-  digest = "1:9a2af239201fee92f0e90db0f139b74ab072b7e0dff9a205b8513a26889e78ba"
+  digest = "1:d3d40b0b54590e8128f50f10e8840c176276742b2b61906e8c757db25fa556f6"
   name = "golang.org/x/image"
   packages = ["bmp"]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "c73c2afc3b812cdd6385de5a50616511c4a3d458"
 
 [[projects]]
   branch = "master"
-  digest = "1:2f71657f09ff05e4567909e9e0de7ad799828c96d402c540b41dc044a6590fb2"
+  digest = "1:48eb4c1ee454c1773f7f386352a86c81af842c5d6514f77b0c5833d3af88ffce"
   name = "golang.org/x/sys"
   packages = [
     "unix",
     "windows",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "1c9583448a9c3aa0f9a6a5241bf73c0bd8aafded"
 
 [solve-meta]
